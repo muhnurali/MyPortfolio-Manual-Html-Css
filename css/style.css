@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'Walkway';
+	src: url('../assets/font/Walkway/Walkway_Bold.ttf');
+}
+body{
+	font-family: walkway;
+	color: black;
+	margin: 0 auto;
+}
+#home{
+	height: 370px;
+	background-image: url("../assets/images/home.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-top: 300px;
+	padding-bottom: 50px;
+	padding-right: 500px;
+}
+#footer{
+	text-align: center;
+	background-color: white;
+}
+#profil, #login, #gallery, #portofolio, #contact{
+	font-size: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#profil, #login{
+	text-align: justify;
+	background-color: silver;
+}
+#gallery{
+	text-align: center;
+	background-color: silver;
+}
+#portofolio, #contact{
+	background-color: white;
+	text-align: justify;
+}
+#gallery img{
+	width: 50%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: black;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    overflow-x: hidden;
+    -moz-overflow-x: hidden;
+	-webkit-overflow-x: hidden;
+	-o-overflow-x: hidden;
+	-ms-overflow-x: hidden;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+   	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color:  black;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    -moz-transition: margin-left .5s;
+	-webkit-transition: margin-left .5s;
+	-o-transition: margin-left .5s;
+	-ms-transition: margin-left .5s;
+   	width: auto;
+	padding: 0px;
+	margin: 0px;
+}
+#menu{
+	position: fixed;
+	text-align: center;
+	background-color: gray;
+	width: 50px;
+	height: 45px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 3px;
+	border-radius: 120px;
+	-moz-border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-o-border-radius: 120px;
+	-ms-border-radius: 120px;
+	color: white;
+}
+form{
+	line-height: 40px;
+}
